@@ -1,9 +1,14 @@
 import Profile from "./components/Profile";
+import Avatar from "./components/Avatar";
 import "./App.css";
 
 function AppProfile() {
   return (
     <>
+      <Avatar
+        image="https://images.unsplash.com/photo-1687360440101-739008e55576?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=900&q=60"
+        isNew={true}
+      />
       <Profile
         image="https://images.unsplash.com/photo-1687360440101-739008e55576?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=900&q=60"
         name="James Kim"
